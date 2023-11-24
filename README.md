@@ -12,7 +12,7 @@ This repository is based on [guided diffusion](https://github.com/openai/guided-
 
 ## Model Structure
 
-<img src="../../FDU/笔记/pic/README/at_2.png" alt="at_2" style="zoom: 33%;" />Base architecture is a U-net network. Our key idea is to leverage SAR images to guide the inference process of the model. It should be noted that the SAR image condition at each diffusion step is **noise-free**, which is done to give the model more precise and consistent guidance.
+<img src="./assets/at_2.png" alt="at_2" style="zoom: 33%;" />Base architecture is a U-net network. Our key idea is to leverage SAR images to guide the inference process of the model. It should be noted that the SAR image condition at each diffusion step is **noise-free**, which is done to give the model more precise and consistent guidance.
 
 ## Train
 
