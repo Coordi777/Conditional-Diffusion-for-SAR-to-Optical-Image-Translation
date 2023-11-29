@@ -83,4 +83,14 @@ bash sample.sh
 You will find tanslate results in `OPENAI_LOGDIR`. 🌠
 
 ## Cite
-
+```latex
+@ARTICLE{10330015,
+  author={Bai, Xinyu and Pu, Xinyang and Xu, Feng},
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={Conditional Diffusion for SAR to Optical Image Translation}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/LGRS.2023.3337143}}
+```
