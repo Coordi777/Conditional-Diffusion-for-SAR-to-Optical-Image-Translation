@@ -1,6 +1,6 @@
 # Conditional Diffusion for SAR to Optical Image Translation
 
-This is the official implementation of [Conditional Diffusion for SAR to Optical Image Translation](..)
+This is the official implementation of [Conditional Diffusion for SAR to Optical Image Translation](https://ieeexplore.ieee.org/document/10330015/)
 
 This repository is based on [guided diffusion](https://github.com/openai/guided-diffusion) with modifications.
 
