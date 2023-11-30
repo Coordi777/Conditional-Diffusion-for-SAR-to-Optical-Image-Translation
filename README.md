@@ -80,7 +80,7 @@ Or you can run:
 bash sample.sh
 ```
 
-You will find tanslate results in `OPENAI_LOGDIR`. 🌠
+You will find tanslate results in `sample_results`. 🌠
 
 ## Cite
 ```latex
