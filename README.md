@@ -49,7 +49,7 @@ Model will be found in `OPENAI_LOGDIR`.🥳
 First set:
 
 ```shell
-export OPENAI_LOGDIR=/dirs/to/save/results
+export OPENAI_LOGDIR=/dirs/to/save/logs
 ```
 
 Set `SAMPLE_FLAGS` and use the same config with train:
