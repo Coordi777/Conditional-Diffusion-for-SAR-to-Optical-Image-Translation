@@ -42,23 +42,12 @@ def load_data(
     if not data_dir_sar or not data_dir_opt:
         raise ValueError("unspecified data directory")
 
-    # all_files_sar = _list_image_files_recursively(data_dir_sar)
-    # all_files_opt = _list_image_files_recursively(data_dir_opt)
+    all_files_sar = _list_image_files_recursively(data_dir_sar)
+    all_files_opt = _list_image_files_recursively(data_dir_opt)
     classes = None
     #
-    # all_files_sar.sort(key=lambda x: int(x[len(data_dir_sar) + 1:].split('.')[0]))
-    # all_files_opt.sort(key=lambda x: int(x[len(data_dir_opt) + 1:].split('.')[0]))
-    sar_path = pd.read_csv('/remote-home/bxy/data/Sen1_2/sar_path_train.csv')
-    opt_path = pd.read_csv('/remote-home/bxy/data/Sen1_2/opt_path_train.csv')
-    sar_path = sar_path.values.tolist()
-    opt_path = opt_path.values.tolist()
-    # 去掉多余维度
-    for i in range(len(sar_path)):
-        sar_path[i] = sar_path[i][0]
-        opt_path[i] = opt_path[i][0]
-
-    all_files_sar = sar_path
-    all_files_opt = opt_path
+    all_files_sar.sort(key=lambda x: int(x[len(data_dir_sar) + 1:].split('.')[0]))
+    all_files_opt.sort(key=lambda x: int(x[len(data_dir_opt) + 1:].split('.')[0]))
 
     if class_cond:
         # Assume classes are the first part of the filename,
