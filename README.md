@@ -4,7 +4,7 @@ This is the official implementation of [Conditional Diffusion for SAR to Optical
 
 This repository is based on [guided diffusion](https://github.com/openai/guided-diffusion) with modifications.
 
-[2024.12.25]🔈We have updated the open-source code for our latest work (developed based on the Diffusers library), and the code has also been optimized. For details, see [Accelerating-Diffusion-for-SAR-to-Optical-Image-Translation](https://github.com/Coordi777/Accelerating-Diffusion-for-SAR-to-Optical-Image-Translation).
+[2024.12.25]🔈We have updated the open-source code for our latest work (developed based on the Diffusers library), and the code of this work has also been optimized. For details, see [Accelerating-Diffusion-for-SAR-to-Optical-Image-Translation](https://github.com/Coordi777/Accelerating-Diffusion-for-SAR-to-Optical-Image-Translation).
 
 # Overview
 
